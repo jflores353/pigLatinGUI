@@ -11,12 +11,15 @@
     <body>
         <div class="container">
             <h1>Pig Latin generator</h1>
-            <form action="onSubmit">
-                <input type="text" placeholder="Enter word">
-                <button onclick="pigLatin()">Convert to Pig Latin</button>
+            <form id="english">
+                <input id="firstWord" type="text" name="firstWord" placeholder="Enter word">
+                <button class="submitBtn">Convert to Pig Latin</button>
             </form>
-            <div class="output">Converted word here</div>
-        </div>
+            <div id="output">Your Piggy Version is ....</div>
+            <br>
+            <br>
+            <button class="refresh">Refresh</button>
+        </div> <!--  container end -->
         <script src="./pigLatin.js"></script>
     </body>
 </html>

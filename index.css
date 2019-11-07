@@ -13,3 +13,8 @@ h1 {
     size: 35px;
     color: white;
 }
+
+.output {
+    text-size-adjust: 40px;
+    color: white;
+}
